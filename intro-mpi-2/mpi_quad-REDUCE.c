@@ -75,10 +75,11 @@ int main(void) {
   double sum = 0.0;
   double localSumArray[numProcesses];  // to collect each localSum in rank order 
 
-  MPI_Gather(&localSum, 1, MPI_DOUBLE,         // what each rank is to send
-	     &localSumArray, 1, MPI_DOUBLE,    // what is received on the 'root' process
-	     0, MPI_COMM_WORLD);                // receive to root process (rank=0)
+  // MPI_Gather(&localSum, 1, MPI_DOUBLE,         // what each rank is to send
+	//      &localSumArray, 1, MPI_DOUBLE,    // what is received on the 'root' process
+	//      0, MPI_COMM_WORLD);                // receive to root process (rank=0)
 
+  MPI_Reduce(&localSum, &sum, 1, MPI_DOUBLE, MPI_SUM, 0, MPI_COMM_WORLD);
   if (rankNum==0) {
     // output received values
     for (i=0; i<numProcesses; i++) {
