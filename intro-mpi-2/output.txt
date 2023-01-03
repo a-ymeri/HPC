@@ -1,123 +1,121 @@
-rank 25/40 start=18750000 finish=19499999
-rank 32/40 start=24000000 finish=24749999
-rank 28/40 start=21000000 finish=21749999
-rank 5/40 start=3750000 finish=4499999
-rank 1/40 start=750000 finish=1499999
-rank 6/40 start=4500000 finish=5249999
-rank 7/40 start=5250000 finish=5999999
-rank 22/40 start=16500000 finish=17249999
-rank 24/40 start=18000000 finish=18749999
-rank 15/40 start=11250000 finish=11999999
-rank 30/40 start=22500000 finish=23249999
-rank 31/40 start=23250000 finish=23999999
-rank 8/40 start=6000000 finish=6749999
-rank 11/40 start=8250000 finish=8999999
-rank 12/40 start=9000000 finish=9749999
-rank 13/40 start=9750000 finish=10499999
-rank 14/40 start=10500000 finish=11249999
-rank 17/40 start=12750000 finish=13499999
-rank 20/40 start=15000000 finish=15749999
-rank 23/40 start=17250000 finish=17999999
-rank 26/40 start=19500000 finish=20249999
-rank 33/40 start=24750000 finish=25499999
-rank 34/40 start=25500000 finish=26249999
-rank 38/40 start=28500000 finish=29249999
-rank 39/40 start=29250000 finish=29999999
-rank 2/40 start=1500000 finish=2249999
-rank 18/40 start=13500000 finish=14249999
-rank 10/40 start=7500000 finish=8249999
-rank 29/40 start=21750000 finish=22499999
-rank 27/40 start=20250000 finish=20999999
-rank 4/40 start=3000000 finish=3749999
-rank 9/40 start=6750000 finish=7499999
-rank 19/40 start=14250000 finish=14999999
-rank 37/40 start=27750000 finish=28499999
-rank 0/40 start=0 finish=749999
-rank 16/40 start=12000000 finish=12749999
-rank 36/40 start=27000000 finish=27749999
-rank 3/40 start=2250000 finish=2999999
-rank 21/40 start=15750000 finish=16499999
-rank 35/40 start=26250000 finish=26999999
-on rank 0, element 0 = 0.000000
-on rank 0, element 1 = 0.000000
-on rank 0, element 2 = 0.000000
-on rank 0, element 3 = 0.000000
-on rank 0, element 4 = 0.000000
-on rank 0, element 5 = 2327205969060876134855475200.000000
-on rank 0, element 6 = 0.000000
-on rank 0, element 7 = 0.000000
-on rank 0, element 8 = 0.000000
-on rank 0, element 9 = 0.000000
-on rank 0, element 10 = 0.000000
-on rank 0, element 11 = 0.000000
-on rank 0, element 12 = 0.000000
-on rank 0, element 13 = 0.000000
-on rank 0, element 14 = 0.000000
-on rank 0, element 15 = 0.000000
-on rank 0, element 16 = 0.000000
-on rank 0, element 17 = 0.000000
-on rank 0, element 18 = 0.000000
-on rank 0, element 19 = 0.000000
-on rank 0, element 20 = 0.000000
-on rank 0, element 21 = 0.000000
-on rank 0, element 22 = 0.000000
-on rank 0, element 23 = 0.000000
-on rank 0, element 24 = 0.000000
-on rank 0, element 25 = 0.000000
-on rank 0, element 26 = 0.000000
-on rank 0, element 27 = 0.000000
-on rank 0, element 28 = 0.000000
-on rank 0, element 29 = 0.000000
-on rank 0, element 30 = 0.000000
-on rank 0, element 31 = 0.000000
-on rank 0, element 32 = 0.000000
-on rank 0, element 33 = 0.000000
-on rank 0, element 34 = 0.000000
-on rank 0, element 35 = 1672655618.723371
-on rank 0, element 36 = 0.000000
-on rank 0, element 37 = 0.000000
-on rank 0, element 38 = 0.000000
-on rank 0, element 39 = 2327205969060876134855475200.000000
-MPI sum across 40 processes - integral = 4654411938121752269710950400.000000
-WALL CLOCK Time (whole code): 0.276205 seconds  
-WALL CLOCK Time (loop only):  0.066624 seconds  
-rank 0: whole code: 0.276202 seconds (of which loop took 0.066626 seconds)
-rank 1: whole code: 0.029761 seconds (of which loop took 0.021960 seconds)
-rank 2: whole code: 0.117954 seconds (of which loop took 0.057955 seconds)
-rank 3: whole code: 0.051964 seconds (of which loop took 0.051913 seconds)
-rank 4: whole code: 0.063281 seconds (of which loop took 0.063184 seconds)
-rank 5: whole code: 0.036786 seconds (of which loop took 0.035197 seconds)
-rank 6: whole code: 0.073268 seconds (of which loop took 0.042201 seconds)
-rank 7: whole code: 0.060989 seconds (of which loop took 0.034481 seconds)
-rank 8: whole code: 0.137454 seconds (of which loop took 0.095807 seconds)
-rank 9: whole code: 0.064087 seconds (of which loop took 0.064016 seconds)
-rank 10: whole code: 0.051233 seconds (of which loop took 0.051163 seconds)
-rank 11: whole code: 0.011223 seconds (of which loop took 0.011189 seconds)
-rank 12: whole code: 0.088494 seconds (of which loop took 0.055407 seconds)
-rank 13: whole code: 0.071457 seconds (of which loop took 0.071424 seconds)
-rank 14: whole code: 0.040211 seconds (of which loop took 0.011224 seconds)
-rank 15: whole code: 0.042548 seconds (of which loop took 0.042516 seconds)
-rank 16: whole code: 0.176391 seconds (of which loop took 0.019396 seconds)
-rank 17: whole code: 0.049714 seconds (of which loop took 0.049690 seconds)
-rank 18: whole code: 0.063078 seconds (of which loop took 0.029414 seconds)
-rank 19: whole code: 0.055628 seconds (of which loop took 0.055557 seconds)
-rank 20: whole code: 0.189429 seconds (of which loop took 0.094722 seconds)
-rank 21: whole code: 0.050703 seconds (of which loop took 0.050640 seconds)
-rank 22: whole code: 0.093811 seconds (of which loop took 0.065927 seconds)
-rank 23: whole code: 0.077404 seconds (of which loop took 0.077378 seconds)
-rank 24: whole code: 0.097832 seconds (of which loop took 0.005926 seconds)
-rank 25: whole code: 0.030076 seconds (of which loop took 0.029948 seconds)
-rank 26: whole code: 0.073003 seconds (of which loop took 0.012681 seconds)
-rank 27: whole code: 0.059345 seconds (of which loop took 0.059281 seconds)
-rank 28: whole code: 0.094333 seconds (of which loop took 0.026698 seconds)
-rank 29: whole code: 0.050140 seconds (of which loop took 0.050117 seconds)
-rank 30: whole code: 0.080001 seconds (of which loop took 0.016744 seconds)
-rank 31: whole code: 0.077479 seconds (of which loop took 0.077406 seconds)
-rank 32: whole code: 0.302558 seconds (of which loop took 0.061073 seconds)
-rank 33: whole code: 0.065581 seconds (of which loop took 0.065558 seconds)
-rank 34: whole code: 0.274113 seconds (of which loop took 0.017606 seconds)
-rank 35: whole code: 0.052023 seconds (of which loop took 0.051952 seconds)
-rank 36: whole code: 0.054016 seconds (of which loop took 0.053919 seconds)
-rank 37: whole code: 0.063557 seconds (of which loop took 0.063517 seconds)
-rank 38: whole code: 0.074966 seconds (of which loop took 0.074911 seconds)
-rank 39: whole code: 0.061839 seconds (of which loop took 0.061816 seconds)
+send_counts[0]: 23000 
+send_counts[1]: 23000 
+send_counts[2]: 23000 
+send_counts[3]: 23000 
+send_counts[4]: 23000 
+send_counts[5]: 23000 
+send_counts[6]: 23000 
+send_counts[7]: 23000 
+send_counts[8]: 23000 
+send_counts[9]: 23000 
+send_counts[10]: 23000 
+send_counts[11]: 23000 
+send_counts[12]: 23000 
+send_counts[13]: 23000 
+send_counts[14]: 23000 
+send_counts[15]: 23000 
+send_counts[16]: 23000 
+send_counts[17]: 23000 
+send_counts[18]: 23000 
+send_counts[19]: 23000 
+send_counts[20]: 22000 
+send_counts[21]: 22000 
+send_counts[22]: 22000 
+send_counts[23]: 22000 
+send_counts[24]: 22000 
+send_counts[25]: 22000 
+send_counts[26]: 22000 
+send_counts[27]: 22000 
+send_counts[28]: 22000 
+send_counts[29]: 22000 
+send_counts[30]: 22000 
+send_counts[31]: 22000 
+send_counts[32]: 22000 
+send_counts[33]: 22000 
+send_counts[34]: 22000 
+send_counts[35]: 22000 
+send_counts[36]: 22000 
+send_counts[37]: 22000 
+send_counts[38]: 22000 
+send_counts[39]: 22000 
+rows: 23 
+rows: 23 
+rows: 23 
+rows: 23 
+rows: 23 
+rows: 22 
+rows: 22 
+rows: 23 
+rows: 22 
+rows: 23 
+rows: 22 
+rows: 22 
+rows: 23 
+rows: 22 
+rows: 22 
+rows: 23 
+rows: 23 
+rows: 23 
+rows: 23 
+rows: 23 
+rows: 22 
+rows: 22 
+rows: 23 
+rows: 22 
+rows: 22 
+rows: 22 
+rows: 22 
+rows: 22 
+rows: 23 
+rows: 22 
+rows: 22 
+rows: 22 
+rows: 23 
+rows: 22 
+rows: 22 
+rows: 23 
+rows: 23 
+rows: 23 
+rows: 23 
+rows: 22 
+recv_counts[0]: 26450 
+recv_counts[1]: 26450 
+recv_counts[2]: 26450 
+recv_counts[3]: 26450 
+recv_counts[4]: 26450 
+recv_counts[5]: 26450 
+recv_counts[6]: 26450 
+recv_counts[7]: 26450 
+recv_counts[8]: 26450 
+recv_counts[9]: 26450 
+recv_counts[10]: 26450 
+recv_counts[11]: 26450 
+recv_counts[12]: 26450 
+recv_counts[13]: 26450 
+recv_counts[14]: 26450 
+recv_counts[15]: 26450 
+recv_counts[16]: 26450 
+recv_counts[17]: 26450 
+recv_counts[18]: 26450 
+recv_counts[19]: 26450 
+recv_counts[20]: 25300 
+recv_counts[21]: 25300 
+recv_counts[22]: 25300 
+recv_counts[23]: 25300 
+recv_counts[24]: 25300 
+recv_counts[25]: 25300 
+recv_counts[26]: 25300 
+recv_counts[27]: 25300 
+recv_counts[28]: 25300 
+recv_counts[29]: 25300 
+recv_counts[30]: 25300 
+recv_counts[31]: 25300 
+recv_counts[32]: 25300 
+recv_counts[33]: 25300 
+recv_counts[34]: 25300 
+recv_counts[35]: 25300 
+recv_counts[36]: 25300 
+recv_counts[37]: 25300 
+recv_counts[38]: 25300 
+recv_counts[39]: 25300 
+Time: 3.067930
