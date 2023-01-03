@@ -44,14 +44,24 @@ SRC=ass1.c
 EXE=${SRC%%.c}.exe
 echo compiling $SRC to $EXE
 
-# compile and run, with 1 MPI process up to 40 MPI processes
+# # compile and run, with 1 MPI process up to 40 MPI processes
+# mpiicc -O0 $SRC -o $EXE -std=c99 && \
+#       (
+#         for i in {1..40}
+#         do
+#           echo "Running ${EXE} with $i MPI processes"
+#           mpirun -np $i ./${EXE} a.dat b.dat c.dat
+#         done
+#       ) \
+#       || echo $SRC did not built to $EXE
+
+#compile and run with 1, 2, 4, 8, 16, 32 MPI processes
 mpiicc -O0 $SRC -o $EXE -std=c99 && \
       (
-        for i in {1..40}
+        for i in 1 2 4 8 16 32
         do
           echo "Running ${EXE} with $i MPI processes"
           mpirun -np $i ./${EXE} a.dat b.dat c.dat
         done
       ) \
       || echo $SRC did not built to $EXE
-

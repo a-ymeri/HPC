@@ -133,6 +133,13 @@ int main(int argc, char *argv[]) {
   */
     float local_sum;
 
+    //get time
+
+    double local_start = MPI_Wtime();
+
+
+    
+    
     int rows = send_counts[rank] / n;
     // printf("rows: %d \n", rows);
     int chunk_c_size = rows * p;
@@ -149,6 +156,9 @@ int main(int argc, char *argv[]) {
         }
     }
     
+    double local_end = MPI_Wtime();
+
+    printf("rank: %d, local time: %f \n", rank, local_end - local_start);
 
     /*
 
