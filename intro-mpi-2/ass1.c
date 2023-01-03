@@ -111,6 +111,8 @@ int main(int argc, char *argv[]) {
     // allocate memory for the chunk
     float *chunk = (float *)malloc(send_counts[rank] * n * sizeof(float));
 
+    double scatter_start = MPI_Wtime();
+
     MPI_Scatterv(A, send_counts, displs, MPI_INT, chunk, send_counts[rank], MPI_INT, 0, MPI_COMM_WORLD);
 
 
@@ -190,8 +192,11 @@ int main(int argc, char *argv[]) {
     double time = end - start;
 
     //print time in seconds
-    if(rank == 0)
-        printf("Time: %f", time);
+    if(rank == 0){
+        printf("Time including data load: %f \n", time);
+        printf("Time excluding data load: %f \n", time - scatter_start);
+    }
+
     
     // print the final array on rank a0
     if (rank == 0) {
