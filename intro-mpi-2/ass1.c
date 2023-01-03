@@ -194,7 +194,7 @@ int main(int argc, char *argv[]) {
     //print time in seconds
     if(rank == 0){
         printf("Time including data load: %f \n", time);
-        printf("Time excluding data load: %f \n", time - scatter_start);
+        printf("Time excluding data load: %f \n", end - scatter_start);
     }
 
     
