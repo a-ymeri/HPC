@@ -100,7 +100,7 @@ int main(int argc, char *argv[]) {
         }
 
         if(rank == 0)
-            printf("send_counts[%d]: %d \n", i, send_counts[i]);
+            // printf("send_counts[%d]: %d \n", i, send_counts[i]);
 
         displs[i] = 0;
         if (i > 0) {
@@ -128,7 +128,7 @@ int main(int argc, char *argv[]) {
     float local_sum;
 
     int rows = send_counts[rank] / n;
-    printf("rows: %d \n", rows);
+    // printf("rows: %d \n", rows);
     int chunk_c_size = rows * p;
     float *chunk_c = (float *)malloc(chunk_c_size * sizeof(float));
 
@@ -171,7 +171,7 @@ int main(int argc, char *argv[]) {
     for (int i = 0; i < num_procs; i++) {
         recv_counts[i] = send_counts[i] / n * p;
         if(rank == 0)
-            printf("recv_counts[%d]: %d \n", i, recv_counts[i]);
+            // printf("recv_counts[%d]: %d \n", i, recv_counts[i]);
     }
 
 
