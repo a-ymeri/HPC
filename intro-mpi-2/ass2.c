@@ -14,7 +14,8 @@ int main(int argc, char** argv) {
     fscanf(fp, "%d %d", &m, &n);
 
     // second line of a.dat is the array
-    float A[n*m];
+    float *A = NULL;
+    A = (float *)malloc(sizeof(float) * m * n);
     for (int i = 0; i < n*m; i++) {
         fscanf(fp, "%f", &A[i]);
     }
@@ -34,7 +35,11 @@ int main(int argc, char** argv) {
 
 
     // second line of b.dat is the array
-    float B[n*p];
+    printf("%d %d ", n, p)
+    float *B = NULL;
+    B = (float *)malloc(sizeof(float) * n * p);
+
+    printf(n*p)
     for (int i = 0; i < n*p; i++) {
         fscanf(fp, "%f", &B[i]);
     }
