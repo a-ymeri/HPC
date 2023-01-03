@@ -45,7 +45,7 @@ EXE=${SRC%%.c}.exe
 echo compiling $SRC to $EXE
 
 # compile and run, with 1 MPI process up to 40 MPI processes
-mpiicc -O0 $SRC -o $EXE && \
+mpiicc -O0 $SRC -o $EXE -std=c99 && \
       (
         for i in {1..40}
         do
