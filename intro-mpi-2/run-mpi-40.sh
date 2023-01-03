@@ -40,17 +40,17 @@ echo "Scheduling priority          : $SLURM_PRIO_PROCESS"
 
 
 # parallel using MPI
-SRC=mpi_quad.c
+SRC=ass1.c
 EXE=${SRC%%.c}.exe
 echo compiling $SRC to $EXE
 
 # compile and run, with 1 MPI process up to 40 MPI processes
-mpicc -O0 $SRC func2.c -o $EXE && \
+mpiicc -O0 $SRC -o $EXE && \
       (
         for i in {1..40}
         do
           echo "Running ${EXE} with $i MPI processes"
-          mpirun -np $i ./${EXE}
+          mpirun -np $i ./${EXE} a.dat b.dat c.dat
         done
       ) \
       || echo $SRC did not built to $EXE
