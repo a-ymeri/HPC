@@ -1,10 +1,32 @@
-send_counts[0] = 4send_counts[1] = 4send_counts[2] = 2rank 0: 0 
-rank 0: 1 
-rank 0: 2 
-rank 0: 3 
-rank 1: 2 
-rank 1: 3 
-rank 1: 4 
-rank 1: 5 
-rank 2: 4 
-rank 2: 5 
+chunk c size: 20 
+final_data[0] = 140 
+final_data[1] = 146 
+final_data[2] = 152 
+final_data[3] = 158 
+final_data[4] = 164 
+final_data[5] = 170 
+final_data[6] = 176 
+final_data[7] = 182 
+final_data[8] = 188 
+final_data[9] = 194 
+final_data[10] = 380 
+final_data[11] = 402 
+final_data[12] = 424 
+final_data[13] = 446 
+final_data[14] = 468 
+final_data[15] = 490 
+final_data[16] = 512 
+final_data[17] = 534 
+final_data[18] = 556 
+final_data[19] = 578 
+final_data[20] = 620 
+final_data[21] = 658 
+final_data[22] = 696 
+final_data[23] = 734 
+final_data[24] = 772 
+final_data[25] = 810 
+final_data[26] = 848 
+final_data[27] = 886 
+final_data[28] = 924 
+final_data[29] = 962 
+chunk c size: 10 
