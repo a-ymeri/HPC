@@ -170,7 +170,7 @@ int main(int argc, char *argv[]) {
 
     for (int i = 0; i < num_procs; i++) {
         recv_counts[i] = send_counts[i] / n * p;
-        if(rank == 0)
+        // if(rank == 0)
             // printf("recv_counts[%d]: %d \n", i, recv_counts[i]);
     }
 
