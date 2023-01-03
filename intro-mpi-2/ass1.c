@@ -111,6 +111,10 @@ int main(int argc, char *argv[]) {
     // allocate memory for the chunk
     float *chunk = (float *)malloc(send_counts[rank] * n * sizeof(float));
 
+    //mpi block so we can time it
+
+    MPI_Barrier(MPI_COMM_WORLD);
+
     double scatter_start = MPI_Wtime();
 
     MPI_Scatterv(A, send_counts, displs, MPI_INT, chunk, send_counts[rank], MPI_INT, 0, MPI_COMM_WORLD);
